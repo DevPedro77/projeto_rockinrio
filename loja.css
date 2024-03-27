@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: fantasy;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+html {
+  overflow-x: hidden;
+}
+
+.montserrat-header {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+
+#cabecalho {
+  background-color: black;
+  padding-left: 20px;
+}
+
+nav {
+  padding-right: 1%;
+}
+
+body {
+  background-color: black;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  background-color: black;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #ff0000;
+  border: none;
+}
+
+.nav-link {
+  text-align: center;
+  font-weight: bold;
+}
+.container {
+  margin-top: 3%;
+  cursor: pointer;
+}
+
+.container h2 {
+  color: #fff;
+  margin-top: 5%;
+}
+
+.container-productos button {
+  margin-bottom: 1%;
+  width: 340px;
+}
+
+.price {
+  display: block;
+  font-size: 29px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+  margin-top: 2%;
+}
+
+#other {
+  margin-left: 3%;
+  justify-content: center;
+  display: block;
+}
+#other h1 {
+  color: #fff;
+  margin: 2% 1%;
+}
+
+.card-body {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.card-text {
+  color: #a8a8a8;
+}
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 70px;
+  font-family: fantasy;
+}
+
+.footer-toggle {
+  display: flex;
+  justify-content: center;
+  
+}
+.footer-toggle a{
+  color: red;
+  font-family: fantasy;
+  font-weight: lighter;
+  padding-left: 8px;
+  text-decoration: wavy;
+}
